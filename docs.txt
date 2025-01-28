@@ -1,0 +1,10 @@
+start mysql - brew services start mysql
+stop mysql - brew services stop mysql
+ROOT USER PASSWORD == mysql password - 032105MySql
+
+USERS: code_search_user, PASSWORD: Password123
+
+connect project to MySQL - mysql -u root -p
+
+CREATE USER 'code_search_user'@'%' IDENTIFIED BY 'Password123';
+GRANT ALL ON code_search_db.* TO 'code_search_user'@'%';

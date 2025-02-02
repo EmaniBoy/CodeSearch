@@ -32,5 +32,21 @@ build/
 
 ### VS Code ###
 .vscode/
-python_services/venv/
+
+### Python ###
+# Common Python build artifacts:
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments:
 venv/
+env/
+python_services/venv/
+.env/
